@@ -13,11 +13,11 @@ Inicio
       escreval ("Faz quantos anos que você fuma?")
       leia(anos)
 
-      quantia <- cigs * anos
+      quantia <- cigs * 365 * anos
       
       perda <- quantia * 10
       
-      dias <- perda * 0.00069
+      dias <- perda / 1440
       
-      escreval("Ao todo, você perdeu cerca de", dias, "dias. Não fume!")
+      escreval("Ao todo, você perdeu cerca de", dias, "dias de vida. Não fume!")
 Fimalgoritmo
